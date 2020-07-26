@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Casey\Dropbox\Defcon\Badges\Learn404\Learn404\Learn404.sch</source>
+    <date>7/10/2020 2:51:35 AM</date>
+    <tool>Eeschema (5.0.2)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Learn404.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD7584</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>4520</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.intersil.com/content/dam/Intersil/documents/cd45/cd4518bms-20bms.pdf</datasheet>
+      <fields>
+        <field name="PartNum">CD74HCT4520M</field>
+      </fields>
+      <libsource lib="4xxx" part="4520" description="Dual Binary Up-Counter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD80C3</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM555</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm555.pdf</datasheet>
+      <fields>
+        <field name="PartNum">296-21752-1-ND</field>
+      </fields>
+      <libsource lib="Timer" part="LM555" description="Timer, DIP-8/SOIC-8/SSOP-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD832F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="PartNum">FK26X7R1C106K</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD8CEE</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFDE3A8</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE169D</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE16D1</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE1705</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE19E4</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE19F5</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE1A09</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE1A11</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE1A19</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE235B</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE236C</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE2380</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE2388</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE2390</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE2DD7</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE2DE8</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE2DFC</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE2E04</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE2E0C</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4C47</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4C58</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4C72</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4C7A</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4C82</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4C99</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4CAA</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4CBE</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4CC6</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4CCE</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4CE5</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4CF6</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4D0A</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4D12</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4D1A</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4D31</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4D42</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4D56</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4D5E</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE4D66</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F008699</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F00DBC2</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F00DC42</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F00DCC4</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F00DDCB</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F00DDD7</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F00DDDF</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F00DDE7</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F00F02A</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F00F036</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F00F03E</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F00F046</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F010559</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F010565</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F01056D</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F010575</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F011AEB</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F011AF7</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F011AFF</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F011B07</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0133DE</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0133EA</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0133F2</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0133FA</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F014CC7</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F014CD3</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F014CDB</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F014CE3</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F01678A</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F016796</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F01679E</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0167A6</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">CF14JT10K0</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F023856</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">CF14JT10K0</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F023B9C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="PartNum">FK26X7R1C106K</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F029626</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>3V 1000mAh</value>
+      <footprint>Battery:3039</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="PartNum"> BCAAAPC-ND</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F02C385</tstamp>
+    </comp>
+    <comp ref="BT2">
+      <value>3V 1000mAh</value>
+      <footprint>Battery:3039</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="PartNum"> BCAAAPC-ND</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F02CADD</tstamp>
+    </comp>
+    <comp ref="R69">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F025EC1</tstamp>
+    </comp>
+    <comp ref="R70">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F025EC9</tstamp>
+    </comp>
+    <comp ref="R67">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F025ED1</tstamp>
+    </comp>
+    <comp ref="R68">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number"> CF14JT2K00CT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F025ED9</tstamp>
+    </comp>
+    <comp ref="R71">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F02816B</tstamp>
+    </comp>
+    <comp ref="R72">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F028173</tstamp>
+    </comp>
+    <comp ref="R73">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F02817B</tstamp>
+    </comp>
+    <comp ref="R74">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Part Number">RMCF1206ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F028183</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="4xxx" part="4520">
+      <description>Dual Binary Up-Counter</description>
+      <docs>http://www.intersil.com/content/dam/Intersil/documents/cd45/cd4518bms-20bms.pdf</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4520</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CK" type="input"/>
+        <pin num="2" name="Enable" type="input"/>
+        <pin num="3" name="Q1" type="output"/>
+        <pin num="4" name="Q2" type="output"/>
+        <pin num="5" name="Q3" type="output"/>
+        <pin num="6" name="Q4" type="output"/>
+        <pin num="7" name="Reset" type="input"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="CK" type="input"/>
+        <pin num="10" name="Enable" type="input"/>
+        <pin num="11" name="Q1" type="output"/>
+        <pin num="12" name="Q2" type="output"/>
+        <pin num="13" name="Q3" type="output"/>
+        <pin num="14" name="Q4" type="output"/>
+        <pin num="15" name="Reset" type="input"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="LM555">
+      <aliases>
+        <alias>ICM7555</alias>
+        <alias>LMC555xM</alias>
+        <alias>LMC555xMM</alias>
+        <alias>LMC555xN</alias>
+        <alias>MC1455</alias>
+        <alias>TLC555CD</alias>
+        <alias>TLC555CP</alias>
+        <alias>TLC555CPS</alias>
+        <alias>NA555</alias>
+        <alias>NE555</alias>
+        <alias>SE555</alias>
+        <alias>SA555</alias>
+      </aliases>
+      <description>Timer, DIP-8/SOIC-8/SSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm555.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM555</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="4xxx">
+      <uri>C:\Program Files\KiCad\share\kicad\library/4xxx.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Timer">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Timer.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R24-Pad2)">
+      <node ref="R24" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="2" name="Net-(R25-Pad2)">
+      <node ref="R25" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1"/>
+      <node ref="R37" pin="2"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R23-Pad1)">
+      <node ref="R23" pin="1"/>
+      <node ref="R36" pin="2"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="5" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="6" name="Net-(R23-Pad2)">
+      <node ref="R23" pin="2"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="7" name="Net-(R22-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="8" name="Net-(R21-Pad1)">
+      <node ref="R21" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="9" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="10" name="Net-(R13-Pad1)">
+      <node ref="R29" pin="2"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="11" name="Net-(R29-Pad1)">
+      <node ref="R29" pin="1"/>
+      <node ref="R39" pin="2"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="12" name="Net-(R27-Pad1)">
+      <node ref="R28" pin="1"/>
+      <node ref="R38" pin="2"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="13" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="14" name="Net-(R18-Pad2)">
+      <node ref="R18" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="15" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="16" name="Net-(R17-Pad1)">
+      <node ref="R33" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="17" name="Net-(R20-Pad2)">
+      <node ref="R20" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="18" name="Net-(R21-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="19" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R34" pin="2"/>
+    </net>
+    <net code="20" name="Net-(R14-Pad1)">
+      <node ref="R30" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="21" name="Net-(R19-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="22" name="GND">
+      <node ref="D6" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="R68" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="15"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C1" pin="2"/>
+      <node ref="BT2" pin="2"/>
+      <node ref="R69" pin="1"/>
+      <node ref="R69" pin="2"/>
+      <node ref="R70" pin="1"/>
+      <node ref="R70" pin="2"/>
+      <node ref="R67" pin="1"/>
+      <node ref="R67" pin="2"/>
+      <node ref="R68" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="R74" pin="1"/>
+      <node ref="R71" pin="1"/>
+      <node ref="R71" pin="2"/>
+      <node ref="R72" pin="1"/>
+      <node ref="R72" pin="2"/>
+      <node ref="R73" pin="1"/>
+      <node ref="R73" pin="2"/>
+      <node ref="R74" pin="2"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="24" name="Net-(R16-Pad1)">
+      <node ref="R32" pin="2"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="25" name="VCC">
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U2" pin="16"/>
+      <node ref="R65" pin="2"/>
+      <node ref="BT1" pin="1"/>
+    </net>
+    <net code="26" name="Net-(R31-Pad1)">
+      <node ref="R32" pin="1"/>
+      <node ref="R40" pin="2"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="27" name="Net-(R15-Pad1)">
+      <node ref="R31" pin="2"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="28" name="Net-(BT1-Pad2)">
+      <node ref="BT2" pin="1"/>
+      <node ref="BT1" pin="2"/>
+    </net>
+    <net code="29" name="Net-(R65-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="R65" pin="1"/>
+      <node ref="R66" pin="2"/>
+    </net>
+    <net code="30" name="Out2A">
+      <node ref="R10" pin="2"/>
+      <node ref="U2" pin="11"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="31" name="Out1D">
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="32" name="Out1C">
+      <node ref="U2" pin="5"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="33" name="Out1B">
+      <node ref="U2" pin="4"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="34" name="Out1A">
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="35" name="Out2B">
+      <node ref="R11" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="36" name="Net-(R33-Pad1)">
+      <node ref="R33" pin="1"/>
+      <node ref="R41" pin="2"/>
+    </net>
+    <net code="37" name="Net-(R41-Pad1)">
+      <node ref="R49" pin="2"/>
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="38" name="Net-(R49-Pad1)">
+      <node ref="R49" pin="1"/>
+      <node ref="R57" pin="2"/>
+    </net>
+    <net code="39" name="Out2D">
+      <node ref="U2" pin="14"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="40" name="Out2C">
+      <node ref="R13" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="41" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="42" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R66" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="43" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R57" pin="1"/>
+    </net>
+    <net code="44" name="Net-(R46-Pad1)">
+      <node ref="R46" pin="1"/>
+      <node ref="R54" pin="2"/>
+    </net>
+    <net code="45" name="Net-(R55-Pad1)">
+      <node ref="R63" pin="2"/>
+      <node ref="R55" pin="1"/>
+    </net>
+    <net code="46" name="Net-(R39-Pad1)">
+      <node ref="R39" pin="1"/>
+      <node ref="R47" pin="2"/>
+    </net>
+    <net code="47" name="Net-(R47-Pad1)">
+      <node ref="R55" pin="2"/>
+      <node ref="R47" pin="1"/>
+    </net>
+    <net code="48" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="R63" pin="1"/>
+    </net>
+    <net code="49" name="Net-(R54-Pad1)">
+      <node ref="R54" pin="1"/>
+      <node ref="R62" pin="2"/>
+    </net>
+    <net code="50" name="Net-(D6-Pad2)">
+      <node ref="R62" pin="1"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="51" name="Net-(R38-Pad1)">
+      <node ref="R46" pin="2"/>
+      <node ref="R38" pin="1"/>
+    </net>
+    <net code="52" name="Net-(R53-Pad1)">
+      <node ref="R53" pin="1"/>
+      <node ref="R61" pin="2"/>
+    </net>
+    <net code="53" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R61" pin="1"/>
+    </net>
+    <net code="54" name="Net-(R56-Pad1)">
+      <node ref="R64" pin="2"/>
+      <node ref="R56" pin="1"/>
+    </net>
+    <net code="55" name="Net-(D8-Pad2)">
+      <node ref="R64" pin="1"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="56" name="Net-(R48-Pad1)">
+      <node ref="R56" pin="2"/>
+      <node ref="R48" pin="1"/>
+    </net>
+    <net code="57" name="Net-(R45-Pad1)">
+      <node ref="R53" pin="2"/>
+      <node ref="R45" pin="1"/>
+    </net>
+    <net code="58" name="Net-(R40-Pad1)">
+      <node ref="R40" pin="1"/>
+      <node ref="R48" pin="2"/>
+    </net>
+    <net code="59" name="Net-(D2-Pad2)">
+      <node ref="R58" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="60" name="Net-(R43-Pad1)">
+      <node ref="R51" pin="2"/>
+      <node ref="R43" pin="1"/>
+    </net>
+    <net code="61" name="Net-(R51-Pad1)">
+      <node ref="R59" pin="2"/>
+      <node ref="R51" pin="1"/>
+    </net>
+    <net code="62" name="Net-(R35-Pad1)">
+      <node ref="R43" pin="2"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="63" name="Net-(D3-Pad2)">
+      <node ref="R59" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="64" name="Net-(R50-Pad1)">
+      <node ref="R50" pin="1"/>
+      <node ref="R58" pin="2"/>
+    </net>
+    <net code="65" name="Net-(R42-Pad1)">
+      <node ref="R50" pin="2"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="66" name="Net-(R34-Pad1)">
+      <node ref="R42" pin="2"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="67" name="Net-(R44-Pad1)">
+      <node ref="R44" pin="1"/>
+      <node ref="R52" pin="2"/>
+    </net>
+    <net code="68" name="Net-(R37-Pad1)">
+      <node ref="R45" pin="2"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="69" name="Net-(R52-Pad1)">
+      <node ref="R60" pin="2"/>
+      <node ref="R52" pin="1"/>
+    </net>
+    <net code="70" name="Net-(D4-Pad2)">
+      <node ref="R60" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="71" name="Net-(R36-Pad1)">
+      <node ref="R44" pin="2"/>
+      <node ref="R36" pin="1"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,24 @@
+Source:,C:\Users\Casey\Dropbox\Defcon\Badges\Learn404\Learn404\Learn404.sch,,,,,,,
+Date:,7/10/2020 2:51:35 AM,,,,,,,
+Tool:,Eeschema (5.0.2)-1,,,,,,,
+Generator:,C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py,,,,,,,
+Component Count:,88,,,,,,,
+Ref,Qnty,Total Qty,Value,Cmp name,Description,PN,Cost/ea (for 500 badges),Total
+"BT1, BT2, ",2,1000,3V 1000mAh,Battery_Cell,Single-cell battery,36-3039-ND,0.397,0.794
+"C1, C2, ",2,1000,10uF,C,Unpolarized capacitor,445-FK26X7R1C106K-ND ,0.133,0.266
+"D1, D2, D3, D4, D5, D6, D7, D8, ",8,4000,LED,LED,Light emitting diode,,,0
+"R1, R17, R2, R18, R3, R19, R4, R20, R5, R21, R6, R22, R7, R23, R8, R24, R9, R25, R10, R26, R11, R27, R12, R28, R13, R29, R14, R30, R15, R31, R16, R32, R69, R70, R67, R68, ",36,18000,2k,R_US,"Resistor, US symbol",CF14JT2K00CT-ND ,0.007,0.252
+"R33, R41, R49, R57, R34, R42, R50, R58, R35, R43, R51, R59, R36, R44, R52, R60, R37, R45, R53, R61, R38, R46, R54, R62, R39, R47, R55, R63, R40, R48, R56, R64, R71, R72, R73, R74, ",36,18000,0R,R_US,"Resistor, US symbol",RMCF1206ZT0R00TR-ND ,0.003,0.108
+"R65, R66, ",2,1000,10k,R_US,"Resistor, US symbol",CF14JT10K0CT-ND ,0.007,0.014
+"U1, ",1,500,LM555,LM555,"Timer, DIP-8/SOIC-8/SSOP-8",296-21752-1-ND,0.144,0.144
+"U2, ",1,500,4520,4520,Dual Binary Up-Counter,296-9285-5-ND ,0.422,0.422
+Batteries,2,1000,,,,1908-1388-ND,1.097,2.194
+Yellow,2,1000,,,,1516-1077-1-ND ,0.11,0.22
+Red,2,1000,,,,1516-1076-1-ND ,0.11,0.22
+Green,2,1000,,,,1516-1073-1-ND,0.12,0.24
+Blue,2,1000,,,,1516-1072-1-ND ,0.12,0.24
+Pin,1,500,,,,https://www.amazon.com/dp/B07K7KQXZF,0.12,0.12
+,,,,,,,,
+,,,,,,,PCB,1
+,,,,,,,Total,6.234
+,,,,,# of badges,500,Grand Total,3117
